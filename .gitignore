@@ -9,7 +9,6 @@ sample_submission.csv
 ops-policy.pdf
 email-thread.txt
 README.txt
-*.csv
 !examples/*.example.csv
 *.pdf
 *.xlsx
@@ -17,12 +16,12 @@ README.txt
 *.pkl
 
 # Row-level derived outputs (request IDs / customer text / per-row predictions)
-predictions.csv
+
 reports/private/
 
 # Trained model artefact: vocabulary is derived from customer request text.
 # Shared privately (not via a public repository).
-models/*.joblib
+
 
 # Python / tooling
 .venv/
